@@ -1,0 +1,20 @@
+.header__lang-link-ru {
+    margin: 0;
+	display: block;
+	color: #fff;
+    align-self: end;
+    justify-self: center;
+    font-family: Inter;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-link-ru {
+        font-size: 18px;
+		line-height: 20px;
+    }
+}

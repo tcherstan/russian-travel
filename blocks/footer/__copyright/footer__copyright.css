@@ -1,0 +1,26 @@
+.footer__copyright {
+    margin: 0;
+    align-self: center;
+    justify-self: end;
+    font-family: Inter;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+		margin: 16px 0 0;
+        justify-self: start;
+		font-size: 14px;
+		line-height: 14px;
+    }
+}

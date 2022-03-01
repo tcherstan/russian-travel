@@ -1,0 +1,32 @@
+.footer__link {
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    align-self: center;
+    justify-self: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    opacity: 1;
+    transition: opacity 100ms ease-in-out;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+.footer__link:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+        justify-self: start;
+		font-size: 24px;
+		line-height: 24px;
+    }
+}

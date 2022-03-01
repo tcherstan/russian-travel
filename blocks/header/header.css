@@ -1,0 +1,21 @@
+.header {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr minmax(min-content, max-content) minmax(min-content, max-content);
+    gap: 18px;
+    width: 100%;
+    max-height: 52px;
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        margin: 0 24px;
+		width: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        margin: 0 16px;
+    }
+}

@@ -1,0 +1,22 @@
+.place__website_link {
+    margin: 12px 0 0 0;
+    display: block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    opacity: 1;
+    transition: opacity 100ms ease-in-out;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+.place__website_link:hover {
+    opacity: .8;
+}
