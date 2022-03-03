@@ -2,9 +2,9 @@
     margin: 92px auto;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     padding: 245px 0;
-    box-sizing: border-box;
+	box-sizing: border-box;
     width: 100%;
     position: relative;
     z-index: 0;
