@@ -1,4 +1,4 @@
-.website__link {
+.place__link {
     margin: 12px 0 0 0;
     display: block;
     font-family: Inter;
@@ -17,6 +17,6 @@
 	text-rendering: optimizeLegibility;
 }
 
-.website__link:hover {
+.place__link:hover {
     opacity: .8;
 }
